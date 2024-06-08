@@ -1,0 +1,5 @@
+this_tuple = (12,54,87,5,67,43)
+y = list(this_tuple)
+y.remove(87)
+this_tuple = tuple(y)
+print(this_tuple)

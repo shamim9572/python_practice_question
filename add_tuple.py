@@ -1,0 +1,5 @@
+this_tuple = ('apple', 'cheery', 'banana')
+y = list(this_tuple)
+y.append('orange')
+this_tuple = tuple(y)
+print(this_tuple)
